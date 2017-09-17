@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		434BBFE1EEE047230FA5A859 /* Pods_Crypt_Keeper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0CCFE614010F456F46EBC3A /* Pods_Crypt_Keeper.framework */; };
+		8327B8221F6616AE00838D00 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8327B8211F6616AE00838D00 /* MenuViewController.swift */; };
+		8327B8241F661A7D00838D00 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8327B8231F661A7D00838D00 /* CoreDataStack.swift */; };
+		8327B8271F661B9700838D00 /* CryptKeeper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8327B8251F661B9700838D00 /* CryptKeeper.xcdatamodeld */; };
+		8327B82A1F66204400838D00 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8327B8291F66204400838D00 /* Helpers.swift */; };
+		8327B82D1F662C4D00838D00 /* Coin+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8327B82B1F662C4D00838D00 /* Coin+CoreDataClass.swift */; };
+		8327B82E1F662C4D00838D00 /* Coin+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8327B82C1F662C4D00838D00 /* Coin+CoreDataProperties.swift */; };
+		8327B8311F676B0200838D00 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8327B8301F676B0200838D00 /* APIClient.swift */; };
+		839B74441F6E0C2F002C500C /* NSManagedObject+helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839B74431F6E0C2F002C500C /* NSManagedObject+helpers.swift */; };
+		839B74481F6E13F5002C500C /* CoinViewControllerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839B74471F6E13F5002C500C /* CoinViewControllerHelper.swift */; };
+		839E4CBC1F428A0500A03526 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839E4CBB1F428A0500A03526 /* AppDelegate.swift */; };
+		839E4CC31F428A0500A03526 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839E4CC21F428A0500A03526 /* Assets.xcassets */; };
+		839E4CC61F428A0500A03526 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839E4CC41F428A0500A03526 /* LaunchScreen.storyboard */; };
+		839E4CCE1F428B6600A03526 /* CoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839E4CCD1F428B6600A03526 /* CoinViewController.swift */; };
+		839E4CD01F428D8000A03526 /* CoinListTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839E4CCF1F428D8000A03526 /* CoinListTableView.swift */; };
+		839E4CD21F42942100A03526 /* UIView+helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839E4CD11F42942100A03526 /* UIView+helpers.swift */; };
+		839E4CD41F429E0400A03526 /* CoinTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839E4CD31F429E0400A03526 /* CoinTableViewCell.swift */; };
+		839E4CDE1F5369F700A03526 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839E4CDD1F5369F700A03526 /* TabBarController.swift */; };
+		839E4CE01F536B9F00A03526 /* WatchListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839E4CDF1F536B9F00A03526 /* WatchListViewController.swift */; };
+		839E4CE21F536CCE00A03526 /* PortfolioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839E4CE11F536CCE00A03526 /* PortfolioViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A927318EA3A9BB82B07DB00 /* Pods-Crypt Keeper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crypt Keeper.release.xcconfig"; path = "Pods/Target Support Files/Pods-Crypt Keeper/Pods-Crypt Keeper.release.xcconfig"; sourceTree = "<group>"; };
+		8327B8211F6616AE00838D00 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		8327B8231F661A7D00838D00 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		8327B8261F661B9700838D00 /* CryptKeeper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CryptKeeper.xcdatamodel; sourceTree = "<group>"; };
+		8327B8291F66204400838D00 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		8327B82B1F662C4D00838D00 /* Coin+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Coin+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8327B82C1F662C4D00838D00 /* Coin+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Coin+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8327B8301F676B0200838D00 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		839B74431F6E0C2F002C500C /* NSManagedObject+helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObject+helpers.swift"; sourceTree = "<group>"; };
+		839B74471F6E13F5002C500C /* CoinViewControllerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinViewControllerHelper.swift; sourceTree = "<group>"; };
+		839E4CB81F428A0500A03526 /* Crypt Keeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypt Keeper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		839E4CBB1F428A0500A03526 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		839E4CC21F428A0500A03526 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		839E4CC51F428A0500A03526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		839E4CC71F428A0500A03526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		839E4CCD1F428B6600A03526 /* CoinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinViewController.swift; sourceTree = "<group>"; };
+		839E4CCF1F428D8000A03526 /* CoinListTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoinListTableView.swift; path = ../CoinListTableView.swift; sourceTree = "<group>"; };
+		839E4CD11F42942100A03526 /* UIView+helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+helpers.swift"; sourceTree = "<group>"; };
+		839E4CD31F429E0400A03526 /* CoinTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinTableViewCell.swift; sourceTree = "<group>"; };
+		839E4CDD1F5369F700A03526 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		839E4CDF1F536B9F00A03526 /* WatchListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchListViewController.swift; sourceTree = "<group>"; };
+		839E4CE11F536CCE00A03526 /* PortfolioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PortfolioViewController.swift; path = ../PortfolioViewController.swift; sourceTree = "<group>"; };
+		F0CCFE614010F456F46EBC3A /* Pods_Crypt_Keeper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Crypt_Keeper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB757625B4E4562908178D27 /* Pods-Crypt Keeper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crypt Keeper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Crypt Keeper/Pods-Crypt Keeper.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		839E4CB51F428A0500A03526 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				434BBFE1EEE047230FA5A859 /* Pods_Crypt_Keeper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8327B81E1F57A0A200838D00 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		8327B8281F66203300838D00 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8327B8301F676B0200838D00 /* APIClient.swift */,
+				8327B8291F66204400838D00 /* Helpers.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		8327B82F1F662C5400838D00 /* CoreData Models */ = {
+			isa = PBXGroup;
+			children = (
+				8327B82B1F662C4D00838D00 /* Coin+CoreDataClass.swift */,
+				8327B82C1F662C4D00838D00 /* Coin+CoreDataProperties.swift */,
+			);
+			name = "CoreData Models";
+			sourceTree = "<group>";
+		};
+		839E4CAF1F428A0500A03526 = {
+			isa = PBXGroup;
+			children = (
+				8327B8231F661A7D00838D00 /* CoreDataStack.swift */,
+				839E4CBA1F428A0500A03526 /* Crypt Keeper */,
+				8A8B39E034FBA5E28A0AF644 /* Pods */,
+				EFD17AADEA1C815E0E6DE4FE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		839E4CB91F428A0500A03526 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				839E4CB81F428A0500A03526 /* Crypt Keeper.app */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		839E4CBA1F428A0500A03526 /* Crypt Keeper */ = {
+			isa = PBXGroup;
+			children = (
+				8327B82F1F662C5400838D00 /* CoreData Models */,
+				8327B8281F66203300838D00 /* Services */,
+				8327B81E1F57A0A200838D00 /* Models */,
+				839E4CBB1F428A0500A03526 /* AppDelegate.swift */,
+				839E4CDD1F5369F700A03526 /* TabBarController.swift */,
+				839E4CCD1F428B6600A03526 /* CoinViewController.swift */,
+				839B74471F6E13F5002C500C /* CoinViewControllerHelper.swift */,
+				839E4CCF1F428D8000A03526 /* CoinListTableView.swift */,
+				839E4CD31F429E0400A03526 /* CoinTableViewCell.swift */,
+				839E4CDF1F536B9F00A03526 /* WatchListViewController.swift */,
+				8327B8211F6616AE00838D00 /* MenuViewController.swift */,
+				839E4CE11F536CCE00A03526 /* PortfolioViewController.swift */,
+				839E4CC41F428A0500A03526 /* LaunchScreen.storyboard */,
+				839E4CC71F428A0500A03526 /* Info.plist */,
+				839E4CC21F428A0500A03526 /* Assets.xcassets */,
+				839E4CD11F42942100A03526 /* UIView+helpers.swift */,
+				8327B8251F661B9700838D00 /* CryptKeeper.xcdatamodeld */,
+				839E4CB91F428A0500A03526 /* Products */,
+				839B74431F6E0C2F002C500C /* NSManagedObject+helpers.swift */,
+			);
+			path = "Crypt Keeper";
+			sourceTree = "<group>";
+		};
+		8A8B39E034FBA5E28A0AF644 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB757625B4E4562908178D27 /* Pods-Crypt Keeper.debug.xcconfig */,
+				2A927318EA3A9BB82B07DB00 /* Pods-Crypt Keeper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EFD17AADEA1C815E0E6DE4FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0CCFE614010F456F46EBC3A /* Pods_Crypt_Keeper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		839E4CB71F428A0500A03526 /* Crypt Keeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839E4CCA1F428A0500A03526 /* Build configuration list for PBXNativeTarget "Crypt Keeper" */;
+			buildPhases = (
+				7F23C28C67C7E51BB6C0520D /* [CP] Check Pods Manifest.lock */,
+				839E4CB41F428A0500A03526 /* Sources */,
+				839E4CB51F428A0500A03526 /* Frameworks */,
+				839E4CB61F428A0500A03526 /* Resources */,
+				D5C7BE2A23F6AAC1CF2A2FCA /* [CP] Embed Pods Frameworks */,
+				A06730E9A41B643B6AE3D004 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crypt Keeper";
+			productName = "Crypt Keeper";
+			productReference = 839E4CB81F428A0500A03526 /* Crypt Keeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		839E4CB01F428A0500A03526 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Smith Coding";
+				TargetAttributes = {
+					839E4CB71F428A0500A03526 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = AE6HH2QNHY;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 839E4CB31F428A0500A03526 /* Build configuration list for PBXProject "Crypt Keeper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 839E4CAF1F428A0500A03526;
+			productRefGroup = 839E4CB91F428A0500A03526 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				839E4CB71F428A0500A03526 /* Crypt Keeper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		839E4CB61F428A0500A03526 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839E4CC61F428A0500A03526 /* LaunchScreen.storyboard in Resources */,
+				839E4CC31F428A0500A03526 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7F23C28C67C7E51BB6C0520D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Crypt Keeper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A06730E9A41B643B6AE3D004 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Crypt Keeper/Pods-Crypt Keeper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5C7BE2A23F6AAC1CF2A2FCA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Crypt Keeper/Pods-Crypt Keeper-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSVG/SwiftSVG.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSVG.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Crypt Keeper/Pods-Crypt Keeper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		839E4CB41F428A0500A03526 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839E4CDE1F5369F700A03526 /* TabBarController.swift in Sources */,
+				8327B8221F6616AE00838D00 /* MenuViewController.swift in Sources */,
+				8327B8271F661B9700838D00 /* CryptKeeper.xcdatamodeld in Sources */,
+				8327B82E1F662C4D00838D00 /* Coin+CoreDataProperties.swift in Sources */,
+				839E4CCE1F428B6600A03526 /* CoinViewController.swift in Sources */,
+				839E4CBC1F428A0500A03526 /* AppDelegate.swift in Sources */,
+				839E4CE01F536B9F00A03526 /* WatchListViewController.swift in Sources */,
+				839E4CD21F42942100A03526 /* UIView+helpers.swift in Sources */,
+				8327B8311F676B0200838D00 /* APIClient.swift in Sources */,
+				8327B8241F661A7D00838D00 /* CoreDataStack.swift in Sources */,
+				839E4CE21F536CCE00A03526 /* PortfolioViewController.swift in Sources */,
+				839B74441F6E0C2F002C500C /* NSManagedObject+helpers.swift in Sources */,
+				839E4CD01F428D8000A03526 /* CoinListTableView.swift in Sources */,
+				8327B82D1F662C4D00838D00 /* Coin+CoreDataClass.swift in Sources */,
+				839B74481F6E13F5002C500C /* CoinViewControllerHelper.swift in Sources */,
+				8327B82A1F66204400838D00 /* Helpers.swift in Sources */,
+				839E4CD41F429E0400A03526 /* CoinTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		839E4CC41F428A0500A03526 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				839E4CC51F428A0500A03526 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		839E4CC81F428A0500A03526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		839E4CC91F428A0500A03526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		839E4CCB1F428A0500A03526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB757625B4E4562908178D27 /* Pods-Crypt Keeper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AE6HH2QNHY;
+				INFOPLIST_FILE = "Crypt Keeper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smithcoding.Crypt-Keeper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		839E4CCC1F428A0500A03526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A927318EA3A9BB82B07DB00 /* Pods-Crypt Keeper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AE6HH2QNHY;
+				INFOPLIST_FILE = "Crypt Keeper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smithcoding.Crypt-Keeper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		839E4CB31F428A0500A03526 /* Build configuration list for PBXProject "Crypt Keeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839E4CC81F428A0500A03526 /* Debug */,
+				839E4CC91F428A0500A03526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839E4CCA1F428A0500A03526 /* Build configuration list for PBXNativeTarget "Crypt Keeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839E4CCB1F428A0500A03526 /* Debug */,
+				839E4CCC1F428A0500A03526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8327B8251F661B9700838D00 /* CryptKeeper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8327B8261F661B9700838D00 /* CryptKeeper.xcdatamodel */,
+			);
+			currentVersion = 8327B8261F661B9700838D00 /* CryptKeeper.xcdatamodel */;
+			path = CryptKeeper.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 839E4CB01F428A0500A03526 /* Project object */;
+}
